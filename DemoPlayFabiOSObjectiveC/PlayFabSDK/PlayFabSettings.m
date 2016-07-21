@@ -12,7 +12,7 @@
 @import AdSupport;
 #endif
 
-static NSString * TitleId = @"XXXX";
+static NSString * TitleId = @"D29F";
 
 static NSString * DeveloperSecretKey = @"";
 
