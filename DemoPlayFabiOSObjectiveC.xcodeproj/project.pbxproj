@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30B73BF21D4066AD007BAA21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B73BF11D4066AD007BAA21 /* main.m */; };
+		30B73BF51D4066AD007BAA21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B73BF41D4066AD007BAA21 /* AppDelegate.m */; };
+		30B73BF81D4066AD007BAA21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B73BF71D4066AD007BAA21 /* ViewController.m */; };
+		30B73BFB1D4066AD007BAA21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B73BF91D4066AD007BAA21 /* Main.storyboard */; };
+		30B73BFD1D4066AD007BAA21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B73BFC1D4066AD007BAA21 /* Assets.xcassets */; };
+		30B73C001D4066AD007BAA21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B73BFE1D4066AD007BAA21 /* LaunchScreen.storyboard */; };
+		30B73C181D4068C7007BAA21 /* PlayFabBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B73C091D4068C7007BAA21 /* PlayFabBaseModel.m */; };
+		30B73C191D4068C7007BAA21 /* PlayFabClientAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B73C0B1D4068C7007BAA21 /* PlayFabClientAPI.m */; };
+		30B73C1A1D4068C7007BAA21 /* PlayFabClientDataModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B73C0D1D4068C7007BAA21 /* PlayFabClientDataModels.m */; };
+		30B73C1B1D4068C7007BAA21 /* PlayFabConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B73C0F1D4068C7007BAA21 /* PlayFabConnection.m */; };
+		30B73C1C1D4068C7007BAA21 /* PlayFabError.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B73C111D4068C7007BAA21 /* PlayFabError.m */; };
+		30B73C1D1D4068C7007BAA21 /* PlayFabSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B73C131D4068C7007BAA21 /* PlayFabSDK.m */; };
+		30B73C1E1D4068C7007BAA21 /* PlayFabSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B73C151D4068C7007BAA21 /* PlayFabSettings.m */; };
+		30B73C1F1D4068C7007BAA21 /* PlayFabVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B73C171D4068C7007BAA21 /* PlayFabVersion.m */; };
+		30B73C281D4068E5007BAA21 /* JAGProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B73C221D4068E5007BAA21 /* JAGProperty.m */; };
+		30B73C291D4068E5007BAA21 /* JAGPropertyConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B73C251D4068E5007BAA21 /* JAGPropertyConverter.m */; };
+		30B73C2A1D4068E5007BAA21 /* JAGPropertyFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B73C271D4068E5007BAA21 /* JAGPropertyFinder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30B73BED1D4066AD007BAA21 /* DemoPlayFabiOSObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoPlayFabiOSObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B73BF11D4066AD007BAA21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30B73BF31D4066AD007BAA21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30B73BF41D4066AD007BAA21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30B73BF61D4066AD007BAA21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30B73BF71D4066AD007BAA21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30B73BFA1D4066AD007BAA21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30B73BFC1D4066AD007BAA21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30B73BFF1D4066AD007BAA21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30B73C011D4066AD007BAA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B73C081D4068C7007BAA21 /* PlayFabBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayFabBaseModel.h; path = PlayFabSDK/PlayFabBaseModel.h; sourceTree = "<group>"; };
+		30B73C091D4068C7007BAA21 /* PlayFabBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayFabBaseModel.m; path = PlayFabSDK/PlayFabBaseModel.m; sourceTree = "<group>"; };
+		30B73C0A1D4068C7007BAA21 /* PlayFabClientAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayFabClientAPI.h; path = PlayFabSDK/PlayFabClientAPI.h; sourceTree = "<group>"; };
+		30B73C0B1D4068C7007BAA21 /* PlayFabClientAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayFabClientAPI.m; path = PlayFabSDK/PlayFabClientAPI.m; sourceTree = "<group>"; };
+		30B73C0C1D4068C7007BAA21 /* PlayFabClientDataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayFabClientDataModels.h; path = PlayFabSDK/PlayFabClientDataModels.h; sourceTree = "<group>"; };
+		30B73C0D1D4068C7007BAA21 /* PlayFabClientDataModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayFabClientDataModels.m; path = PlayFabSDK/PlayFabClientDataModels.m; sourceTree = "<group>"; };
+		30B73C0E1D4068C7007BAA21 /* PlayFabConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayFabConnection.h; path = PlayFabSDK/PlayFabConnection.h; sourceTree = "<group>"; };
+		30B73C0F1D4068C7007BAA21 /* PlayFabConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayFabConnection.m; path = PlayFabSDK/PlayFabConnection.m; sourceTree = "<group>"; };
+		30B73C101D4068C7007BAA21 /* PlayFabError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayFabError.h; path = PlayFabSDK/PlayFabError.h; sourceTree = "<group>"; };
+		30B73C111D4068C7007BAA21 /* PlayFabError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayFabError.m; path = PlayFabSDK/PlayFabError.m; sourceTree = "<group>"; };
+		30B73C121D4068C7007BAA21 /* PlayFabSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayFabSDK.h; path = PlayFabSDK/PlayFabSDK.h; sourceTree = "<group>"; };
+		30B73C131D4068C7007BAA21 /* PlayFabSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayFabSDK.m; path = PlayFabSDK/PlayFabSDK.m; sourceTree = "<group>"; };
+		30B73C141D4068C7007BAA21 /* PlayFabSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayFabSettings.h; path = PlayFabSDK/PlayFabSettings.h; sourceTree = "<group>"; };
+		30B73C151D4068C7007BAA21 /* PlayFabSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayFabSettings.m; path = PlayFabSDK/PlayFabSettings.m; sourceTree = "<group>"; };
+		30B73C161D4068C7007BAA21 /* PlayFabVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayFabVersion.h; path = PlayFabSDK/PlayFabVersion.h; sourceTree = "<group>"; };
+		30B73C171D4068C7007BAA21 /* PlayFabVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayFabVersion.m; path = PlayFabSDK/PlayFabVersion.m; sourceTree = "<group>"; };
+		30B73C211D4068E5007BAA21 /* JAGProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAGProperty.h; path = PlayFabSDK/JAGPropertyConverter/JAGProperty.h; sourceTree = "<group>"; };
+		30B73C221D4068E5007BAA21 /* JAGProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAGProperty.m; path = PlayFabSDK/JAGPropertyConverter/JAGProperty.m; sourceTree = "<group>"; };
+		30B73C231D4068E5007BAA21 /* JAGPropertyConverter-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JAGPropertyConverter-Prefix.pch"; path = "PlayFabSDK/JAGPropertyConverter/JAGPropertyConverter-Prefix.pch"; sourceTree = "<group>"; };
+		30B73C241D4068E5007BAA21 /* JAGPropertyConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAGPropertyConverter.h; path = PlayFabSDK/JAGPropertyConverter/JAGPropertyConverter.h; sourceTree = "<group>"; };
+		30B73C251D4068E5007BAA21 /* JAGPropertyConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAGPropertyConverter.m; path = PlayFabSDK/JAGPropertyConverter/JAGPropertyConverter.m; sourceTree = "<group>"; };
+		30B73C261D4068E5007BAA21 /* JAGPropertyFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAGPropertyFinder.h; path = PlayFabSDK/JAGPropertyConverter/JAGPropertyFinder.h; sourceTree = "<group>"; };
+		30B73C271D4068E5007BAA21 /* JAGPropertyFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAGPropertyFinder.m; path = PlayFabSDK/JAGPropertyConverter/JAGPropertyFinder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30B73BEA1D4066AD007BAA21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30B73BE41D4066AC007BAA21 = {
+			isa = PBXGroup;
+			children = (
+				30B73BEF1D4066AD007BAA21 /* DemoPlayFabiOSObjectiveC */,
+				30B73BEE1D4066AD007BAA21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30B73BEE1D4066AD007BAA21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30B73BED1D4066AD007BAA21 /* DemoPlayFabiOSObjectiveC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30B73BEF1D4066AD007BAA21 /* DemoPlayFabiOSObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				30B73C071D4068B1007BAA21 /* PlayFabSDK */,
+				30B73BF31D4066AD007BAA21 /* AppDelegate.h */,
+				30B73BF41D4066AD007BAA21 /* AppDelegate.m */,
+				30B73BF61D4066AD007BAA21 /* ViewController.h */,
+				30B73BF71D4066AD007BAA21 /* ViewController.m */,
+				30B73BF91D4066AD007BAA21 /* Main.storyboard */,
+				30B73BFC1D4066AD007BAA21 /* Assets.xcassets */,
+				30B73BFE1D4066AD007BAA21 /* LaunchScreen.storyboard */,
+				30B73C011D4066AD007BAA21 /* Info.plist */,
+				30B73BF01D4066AD007BAA21 /* Supporting Files */,
+			);
+			path = DemoPlayFabiOSObjectiveC;
+			sourceTree = "<group>";
+		};
+		30B73BF01D4066AD007BAA21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30B73BF11D4066AD007BAA21 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30B73C071D4068B1007BAA21 /* PlayFabSDK */ = {
+			isa = PBXGroup;
+			children = (
+				30B73C201D4068D2007BAA21 /* JAGPropertyConverter */,
+				30B73C081D4068C7007BAA21 /* PlayFabBaseModel.h */,
+				30B73C091D4068C7007BAA21 /* PlayFabBaseModel.m */,
+				30B73C0A1D4068C7007BAA21 /* PlayFabClientAPI.h */,
+				30B73C0B1D4068C7007BAA21 /* PlayFabClientAPI.m */,
+				30B73C0C1D4068C7007BAA21 /* PlayFabClientDataModels.h */,
+				30B73C0D1D4068C7007BAA21 /* PlayFabClientDataModels.m */,
+				30B73C0E1D4068C7007BAA21 /* PlayFabConnection.h */,
+				30B73C0F1D4068C7007BAA21 /* PlayFabConnection.m */,
+				30B73C101D4068C7007BAA21 /* PlayFabError.h */,
+				30B73C111D4068C7007BAA21 /* PlayFabError.m */,
+				30B73C121D4068C7007BAA21 /* PlayFabSDK.h */,
+				30B73C131D4068C7007BAA21 /* PlayFabSDK.m */,
+				30B73C141D4068C7007BAA21 /* PlayFabSettings.h */,
+				30B73C151D4068C7007BAA21 /* PlayFabSettings.m */,
+				30B73C161D4068C7007BAA21 /* PlayFabVersion.h */,
+				30B73C171D4068C7007BAA21 /* PlayFabVersion.m */,
+			);
+			name = PlayFabSDK;
+			sourceTree = "<group>";
+		};
+		30B73C201D4068D2007BAA21 /* JAGPropertyConverter */ = {
+			isa = PBXGroup;
+			children = (
+				30B73C211D4068E5007BAA21 /* JAGProperty.h */,
+				30B73C221D4068E5007BAA21 /* JAGProperty.m */,
+				30B73C231D4068E5007BAA21 /* JAGPropertyConverter-Prefix.pch */,
+				30B73C241D4068E5007BAA21 /* JAGPropertyConverter.h */,
+				30B73C251D4068E5007BAA21 /* JAGPropertyConverter.m */,
+				30B73C261D4068E5007BAA21 /* JAGPropertyFinder.h */,
+				30B73C271D4068E5007BAA21 /* JAGPropertyFinder.m */,
+			);
+			name = JAGPropertyConverter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30B73BEC1D4066AD007BAA21 /* DemoPlayFabiOSObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30B73C041D4066AD007BAA21 /* Build configuration list for PBXNativeTarget "DemoPlayFabiOSObjectiveC" */;
+			buildPhases = (
+				30B73BE91D4066AD007BAA21 /* Sources */,
+				30B73BEA1D4066AD007BAA21 /* Frameworks */,
+				30B73BEB1D4066AD007BAA21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoPlayFabiOSObjectiveC;
+			productName = DemoPlayFabiOSObjectiveC;
+			productReference = 30B73BED1D4066AD007BAA21 /* DemoPlayFabiOSObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30B73BE51D4066AC007BAA21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = framgia;
+				TargetAttributes = {
+					30B73BEC1D4066AD007BAA21 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 30B73BE81D4066AD007BAA21 /* Build configuration list for PBXProject "DemoPlayFabiOSObjectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30B73BE41D4066AC007BAA21;
+			productRefGroup = 30B73BEE1D4066AD007BAA21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30B73BEC1D4066AD007BAA21 /* DemoPlayFabiOSObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30B73BEB1D4066AD007BAA21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B73C001D4066AD007BAA21 /* LaunchScreen.storyboard in Resources */,
+				30B73BFD1D4066AD007BAA21 /* Assets.xcassets in Resources */,
+				30B73BFB1D4066AD007BAA21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30B73BE91D4066AD007BAA21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B73C291D4068E5007BAA21 /* JAGPropertyConverter.m in Sources */,
+				30B73C1A1D4068C7007BAA21 /* PlayFabClientDataModels.m in Sources */,
+				30B73C191D4068C7007BAA21 /* PlayFabClientAPI.m in Sources */,
+				30B73C2A1D4068E5007BAA21 /* JAGPropertyFinder.m in Sources */,
+				30B73C1C1D4068C7007BAA21 /* PlayFabError.m in Sources */,
+				30B73C281D4068E5007BAA21 /* JAGProperty.m in Sources */,
+				30B73C181D4068C7007BAA21 /* PlayFabBaseModel.m in Sources */,
+				30B73BF81D4066AD007BAA21 /* ViewController.m in Sources */,
+				30B73BF51D4066AD007BAA21 /* AppDelegate.m in Sources */,
+				30B73C1E1D4068C7007BAA21 /* PlayFabSettings.m in Sources */,
+				30B73BF21D4066AD007BAA21 /* main.m in Sources */,
+				30B73C1F1D4068C7007BAA21 /* PlayFabVersion.m in Sources */,
+				30B73C1B1D4068C7007BAA21 /* PlayFabConnection.m in Sources */,
+				30B73C1D1D4068C7007BAA21 /* PlayFabSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30B73BF91D4066AD007BAA21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30B73BFA1D4066AD007BAA21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30B73BFE1D4066AD007BAA21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30B73BFF1D4066AD007BAA21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30B73C021D4066AD007BAA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30B73C031D4066AD007BAA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30B73C051D4066AD007BAA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoPlayFabiOSObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thieumao.DemoPlayFabiOSObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30B73C061D4066AD007BAA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoPlayFabiOSObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thieumao.DemoPlayFabiOSObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30B73BE81D4066AD007BAA21 /* Build configuration list for PBXProject "DemoPlayFabiOSObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B73C021D4066AD007BAA21 /* Debug */,
+				30B73C031D4066AD007BAA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30B73C041D4066AD007BAA21 /* Build configuration list for PBXNativeTarget "DemoPlayFabiOSObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B73C051D4066AD007BAA21 /* Debug */,
+				30B73C061D4066AD007BAA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30B73BE51D4066AC007BAA21 /* Project object */;
+}
